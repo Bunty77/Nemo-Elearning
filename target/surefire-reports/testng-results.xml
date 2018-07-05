@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.nemo.qa.testcases.LoginTest" duration-ms="27130" started-at="2018-07-05T11:20:52Z" finished-at="2018-07-05T11:21:19Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="27130" started-at="2018-07-05T11:20:52Z" finished-at="2018-07-05T11:21:19Z">
+      <class name="com.nemo.qa.testcases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="setup" is-config="true" duration-ms="10819" started-at="2018-07-05T16:50:52Z" finished-at="2018-07-05T16:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatelogintitle()[pri:1, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="validatelogintitle" duration-ms="8" started-at="2018-07-05T16:51:02Z" finished-at="2018-07-05T16:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogintitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="teardown" is-config="true" duration-ms="108" started-at="2018-07-05T16:51:02Z" finished-at="2018-07-05T16:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="setup" is-config="true" duration-ms="8818" started-at="2018-07-05T16:51:03Z" finished-at="2018-07-05T16:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="login" duration-ms="7257" started-at="2018-07-05T16:51:11Z" finished-at="2018-07-05T16:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="teardown" is-config="true" duration-ms="101" started-at="2018-07-05T16:51:19Z" finished-at="2018-07-05T16:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nemo.qa.testcases.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.nemo.qa.testcases.LoginTest -->
+</testng-results>
