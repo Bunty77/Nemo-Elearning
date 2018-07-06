@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.nemo.qa.testcases.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.359 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.466 sec

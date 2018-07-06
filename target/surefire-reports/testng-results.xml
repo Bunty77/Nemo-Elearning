@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="com.nemo.qa.testcases.LoginTest" duration-ms="27130" started-at="2018-07-05T11:20:52Z" finished-at="2018-07-05T11:21:19Z">
+  <suite name="com.nemo.qa.testcases.LoginTest" duration-ms="32243" started-at="2018-07-06T07:03:10Z" finished-at="2018-07-06T07:03:42Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="27130" started-at="2018-07-05T11:20:52Z" finished-at="2018-07-05T11:21:19Z">
+    <test name="Command line test" duration-ms="32243" started-at="2018-07-06T07:03:10Z" finished-at="2018-07-06T07:03:42Z">
       <class name="com.nemo.qa.testcases.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="setup" is-config="true" duration-ms="10819" started-at="2018-07-05T16:50:52Z" finished-at="2018-07-05T16:51:02Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="setup" is-config="true" duration-ms="16537" started-at="2018-07-06T12:33:10Z" finished-at="2018-07-06T12:33:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validatelogintitle()[pri:1, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="validatelogintitle" duration-ms="8" started-at="2018-07-05T16:51:02Z" finished-at="2018-07-05T16:51:02Z">
+        <test-method status="PASS" signature="validatelogintitle()[pri:1, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="validatelogintitle" duration-ms="11" started-at="2018-07-06T12:33:27Z" finished-at="2018-07-06T12:33:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatelogintitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="teardown" is-config="true" duration-ms="108" started-at="2018-07-05T16:51:02Z" finished-at="2018-07-05T16:51:03Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="teardown" is-config="true" duration-ms="102" started-at="2018-07-06T12:33:27Z" finished-at="2018-07-06T12:33:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="setup" is-config="true" duration-ms="8818" started-at="2018-07-05T16:51:03Z" finished-at="2018-07-05T16:51:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="setup" is-config="true" duration-ms="8471" started-at="2018-07-06T12:33:27Z" finished-at="2018-07-06T12:33:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:2, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="login" duration-ms="7257" started-at="2018-07-05T16:51:11Z" finished-at="2018-07-05T16:51:19Z">
+        <test-method status="PASS" signature="login()[pri:2, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="login" duration-ms="7000" started-at="2018-07-06T12:33:35Z" finished-at="2018-07-06T12:33:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="teardown" is-config="true" duration-ms="101" started-at="2018-07-05T16:51:19Z" finished-at="2018-07-05T16:51:19Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="teardown" is-config="true" duration-ms="105" started-at="2018-07-06T12:33:42Z" finished-at="2018-07-06T12:33:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
