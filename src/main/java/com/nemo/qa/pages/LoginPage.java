@@ -36,12 +36,13 @@ public class LoginPage extends TestBase
 	}
 	
 	
-	public void login()
+	public LoginPage login()
 	{
 		personalisation__login.click();
 		username.sendKeys(prop.getProperty("Username"));
 		password.sendKeys(prop.getProperty("Password"));
 		loginBtn.click();
+		return this;
 	}
 	
 	
