@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-com.nemo.qa.testcases.LoginTest">
-              <span class="suite-name border-skipped">com.nemo.qa.testcases.LoginTest</span>
+              <span class="suite-name border-passed">com.nemo.qa.testcases.LoginTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  1 skipped,  1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-com.nemo.qa.testcases.LoginTest" class="hide-methods skipped suite-com.nemo.qa.testcases.LoginTest"> (hide)</a> <!-- hide-methods skipped suite-com.nemo.qa.testcases.LoginTest -->
-                      <a href="#" panel-name="suite-com.nemo.qa.testcases.LoginTest" class="show-methods skipped suite-com.nemo.qa.testcases.LoginTest"> (show)</a> <!-- show-methods skipped suite-com.nemo.qa.testcases.LoginTest -->
-                    </span>
-                    <div class="method-list-content skipped suite-com.nemo.qa.testcases.LoginTest">
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-com.nemo.qa.testcases.LoginTest" title="com.nemo.qa.testcases.LoginTest" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-com.nemo.qa.testcases.LoginTest -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -114,6 +100,11 @@
                       <a href="#" panel-name="suite-com.nemo.qa.testcases.LoginTest" class="show-methods passed suite-com.nemo.qa.testcases.LoginTest"> (show)</a> <!-- show-methods passed suite-com.nemo.qa.testcases.LoginTest -->
                     </span>
                     <div class="method-list-content passed suite-com.nemo.qa.testcases.LoginTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.nemo.qa.testcases.LoginTest" title="com.nemo.qa.testcases.LoginTest" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-com.nemo.qa.testcases.LoginTest" title="com.nemo.qa.testcases.LoginTest" hash-for-method="validatelogintitle">validatelogintitle</a> <!-- method navigator-link -->
@@ -131,9 +122,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-com.nemo.qa.testcases.LoginTest" class="panel com.nemo.qa.testcases.LoginTest">
-          <div class="suite-com.nemo.qa.testcases.LoginTest-class-skipped">
+          <div class="suite-com.nemo.qa.testcases.LoginTest-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.nemo.qa.testcases.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -142,38 +133,8 @@
                   <a name="login">
                   </a> <!-- login -->
                   <span class="method-name">login</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;MLINPU1502-0035&apos;, ip: &apos;fe80:0:0:0:488:7b87:1a03:c50%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_151&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8), userDataDir=/var/folders/nv/95fh8nv97rl1sgj8g8l5gy98qd4nt1/T/.org.chromium.Chromium.p7eTHs}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=67.0.3396.99, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 4a904506288fdfb2884fef688053a752
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:370)
-	at com.nemo.qa.base.TestBase.initialization(TestBase.java:66)
-	at com.nemo.qa.testcases.LoginTest.setup(LoginTest.java:24)
-... Removed 40 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-com.nemo.qa.testcases.LoginTest-class-skipped -->
-          <div class="suite-com.nemo.qa.testcases.LoginTest-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.nemo.qa.testcases.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="validatelogintitle">
@@ -236,18 +197,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validatelogintitle')
+data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'com.nemo.qa.testcases.LoginTest')
-data.setCell(0, 3, 9);
+data.setCell(0, 3, 12317);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'login')
+data.setCell(1, 1, 'validatelogintitle')
 data.setCell(1, 2, 'com.nemo.qa.testcases.LoginTest')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 9);
 window.suiteTableData['com.nemo.qa.testcases.LoginTest']= { tableData: data, tableDiv: 'times-div-com.nemo.qa.testcases.LoginTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 ms</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-com.nemo.qa.testcases.LoginTest">
               </div> <!-- times-div-com.nemo.qa.testcases.LoginTest -->
             </div> <!-- times-div -->
@@ -280,18 +241,24 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validatelogintitle</span>
-                <span class="method-start">14022 ms</span>
+                <span class="method-start">17534 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">14031 ms</span>
+                <span class="method-start">17544 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setup</span>
-                <span class="method-start">14130 ms</span>
+                <span class="method-start">17647 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">29236 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">41553 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
