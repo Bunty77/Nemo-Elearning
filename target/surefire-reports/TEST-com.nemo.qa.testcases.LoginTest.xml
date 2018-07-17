@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="com.nemo.qa.testcases.LoginTest" time="5.988" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.nemo.qa.testcases.LoginTest" time="8.447" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="locap"/>
+    <property name="JOB_NAME" value="test888"/>
     <property name="PWD" value="/Users/nso4579/Documents/Jenkies"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -22,8 +22,8 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="SECURITYSESSIONID" value="186a5"/>
     <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="locap"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/locap/1/display/redirect?page=changes"/>
+    <property name="JOB_BASE_NAME" value="test888"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/test888/1/display/redirect?page=changes"/>
     <property name="BUILD_DISPLAY_NAME" value="#1"/>
     <property name="TMPDIR" value="/var/folders/nv/95fh8nv97rl1sgj8g8l5gy98qd4nt1/T/"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib"/>
@@ -48,11 +48,11 @@
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.12.6"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/locap/1/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/test888/1/display/redirect"/>
     <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
     <property name="path.separator" value=":"/>
     <property name="java.vm.version" value="25.151-b12"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/locap/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/test888/display/redirect"/>
     <property name="SHLVL" value="1"/>
     <property name="_" value="/usr/bin/java"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
@@ -62,7 +62,7 @@
     <property name="LOGNAME" value="nso4579"/>
     <property name="HOME" value="/Users/nso4579"/>
     <property name="user.home" value="/Users/nso4579"/>
-    <property name="BUILD_TAG" value="jenkins-locap-1"/>
+    <property name="BUILD_TAG" value="jenkins-test888-1"/>
     <property name="JENKINS_SERVER_COOKIE" value="d609f118b261d5aa"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="XPC_SERVICE_NAME" value="0"/>
@@ -76,7 +76,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="/Users/nso4579/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
     <property name="java.class.path" value="/Users/nso4579/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12-alpha-1.jar:/Users/nso4579/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/boot/plexus-classworlds-2.5.2.jar:/Users/nso4579/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/nso4579/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven /Users/nso4579/.jenkins/war/WEB-INF/lib/remoting-3.23.jar /Users/nso4579/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar /Users/nso4579/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar 62317"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/nso4579/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven /Users/nso4579/.jenkins/war/WEB-INF/lib/remoting-3.23.jar /Users/nso4579/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar /Users/nso4579/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar 63366"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.os.patch.level" value="unknown"/>
@@ -85,7 +85,7 @@
     <property name="java.io.tmpdir" value="/var/folders/nv/95fh8nv97rl1sgj8g8l5gy98qd4nt1/T/"/>
     <property name="HUDSON_HOME" value="/Users/nso4579/.jenkins"/>
     <property name="PATH+MAVEN" value="/Users/nso4579/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/bin"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/locap/1/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/test888/1/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="OLDPWD" value="/Users/nso4579/Documents"/>
     <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.falsG21us5/Listeners"/>
@@ -94,7 +94,7 @@
     <property name="java.ext.dirs" value="/Users/nso4579/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="__CF_USER_TEXT_ENCODING" value="0x2ED25741:0x0:0x0"/>
     <property name="user.dir" value="/Users/nso4579/Documents/workspace/workspace2/NemoElearningTest"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/locap/"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/test888/"/>
     <property name="line.separator" value="
 "/>
     <property name="MAVEN_HOME" value="/Users/nso4579/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
@@ -102,14 +102,17 @@
     <property name="BUILD_NUMBER" value="1"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="TERM_PROGRAM_VERSION" value="388.1.1"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="GIT_COMMIT" value="875ec1c5974d76e021a5015b9bb9c26d904b7e47"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="LANG" value="en_US.UTF-8"/>
     <property name="maven3.interceptor" value="/Users/nso4579/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar"/>
-    <property name="WORKSPACE" value="/Users/nso4579/.jenkins/workspace/locap"/>
+    <property name="WORKSPACE" value="/Users/nso4579/.jenkins/workspace/test888"/>
     <property name="maven3.interceptor.common" value="/Users/nso4579/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="USER" value="nso4579"/>
+    <property name="GIT_URL" value="https://github.com/Bunty77/Nemo-Elearning"/>
   </properties>
-  <testcase classname="com.nemo.qa.testcases.LoginTest" name="validatelogintitle" time="0.009"/>
-  <testcase classname="com.nemo.qa.testcases.LoginTest" name="login" time="5.979"/>
+  <testcase classname="com.nemo.qa.testcases.LoginTest" name="validatelogintitle" time="0.046"/>
+  <testcase classname="com.nemo.qa.testcases.LoginTest" name="login" time="8.401"/>
 </testsuite>
