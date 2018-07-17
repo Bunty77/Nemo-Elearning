@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="com.nemo.qa.testcases.LoginTest" duration-ms="41667" started-at="2018-07-12T06:46:48Z" finished-at="2018-07-12T06:47:30Z">
+  <suite name="com.nemo.qa.testcases.LoginTest" duration-ms="52455" started-at="2018-07-17T05:11:27Z" finished-at="2018-07-17T05:12:19Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="41667" started-at="2018-07-12T06:46:48Z" finished-at="2018-07-12T06:47:30Z">
+    <test name="Command line test" duration-ms="52455" started-at="2018-07-17T05:11:27Z" finished-at="2018-07-17T05:12:19Z">
       <class name="com.nemo.qa.testcases.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="setup" is-config="true" duration-ms="17534" started-at="2018-07-12T12:16:48Z" finished-at="2018-07-12T12:17:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="setup" is-config="true" duration-ms="19485" started-at="2018-07-17T10:41:27Z" finished-at="2018-07-17T10:41:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validatelogintitle()[pri:1, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="validatelogintitle" duration-ms="9" started-at="2018-07-12T12:17:06Z" finished-at="2018-07-12T12:17:06Z">
+        <test-method status="PASS" signature="validatelogintitle()[pri:1, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="validatelogintitle" duration-ms="47" started-at="2018-07-17T10:41:46Z" finished-at="2018-07-17T10:41:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatelogintitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="teardown" is-config="true" duration-ms="102" started-at="2018-07-12T12:17:06Z" finished-at="2018-07-12T12:17:06Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="teardown" is-config="true" duration-ms="96" started-at="2018-07-17T10:41:46Z" finished-at="2018-07-17T10:41:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="setup" is-config="true" duration-ms="11589" started-at="2018-07-12T12:17:06Z" finished-at="2018-07-12T12:17:17Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="setup" is-config="true" duration-ms="20520" started-at="2018-07-17T10:41:46Z" finished-at="2018-07-17T10:42:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:2, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="login" duration-ms="12317" started-at="2018-07-12T12:17:17Z" finished-at="2018-07-12T12:17:30Z">
+        <test-method status="PASS" signature="login()[pri:2, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="login" duration-ms="12196" started-at="2018-07-17T10:42:07Z" finished-at="2018-07-17T10:42:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="teardown" is-config="true" duration-ms="99" started-at="2018-07-12T12:17:30Z" finished-at="2018-07-12T12:17:30Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nemo.qa.testcases.LoginTest@735f7ae5]" name="teardown" is-config="true" duration-ms="94" started-at="2018-07-17T10:42:19Z" finished-at="2018-07-17T10:42:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

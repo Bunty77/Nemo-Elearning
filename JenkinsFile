@@ -5,20 +5,20 @@ Agent any
 Stages {
 Stage (‘compile stage’) {
 Steps {
-withMaven(maven : ‘maven_3_5_0’){
+withMaven(maven : ‘TestMaven’){
 Sh ‘mvn clean compile’
 }
 
 
 Stage (‘Testing stage’) {
 Steps {
-withMaven(maven : ‘maven_3_5_0’){
+withMaven(maven : ‘TestMaven’){
 Sh ‘mvn test’
 }
 
 Stage (‘Deploy’) {
 Steps {
-withMaven(maven : ‘maven_3_5_0’){
+withMaven(maven : ‘TestMaven’){
 Sh ‘mvn deploy’
 }
 
