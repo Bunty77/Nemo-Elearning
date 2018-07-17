@@ -1,0 +1,27 @@
+Pipeline {
+
+Agent any 
+
+Stages {
+Stage (‘compile stage’) {
+Steps {
+withMaven(maven : ‘maven_3_5_0’){
+Sh ‘mvn clean compile’
+}
+
+
+Stage (‘Testing stage’) {
+Steps {
+withMaven(maven : ‘maven_3_5_0’){
+Sh ‘mvn test’
+}
+
+Stage (‘Deploy’) {
+Steps {
+withMaven(maven : ‘maven_3_5_0’){
+Sh ‘mvn deploy’
+}
+
+}
+}
+}
